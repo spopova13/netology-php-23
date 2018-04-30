@@ -1,6 +1,6 @@
 <?php
     $userName = 'Светлана';
-	$userAge = '29';
+	$userAge = 29;
 	$userMail = 'spopova13@gmail.com';
 	$userTown = 'Екатеринбург';
 	$userAbout = 'Контент-менеджер на туристическом портале';
