@@ -12,16 +12,6 @@
 	    echo '<pre>';
 		print_r($continents);
 		
-/**	$result = [];
-        foreach ($continents as $animals) {
-            $result = array_merge($result, array_filter($animals, function ($item){ 
-			    return count(explode(' ', $item)) === 2; 
-			    }
-		    ) 
-	    );
-    }
-        print_r($result);**/
-		
     $result = [];
         foreach($continents as $continent => $animals) {
             foreach ($animals as $animal) {
@@ -40,9 +30,4 @@
             echo $animal . '<br />';
         }
     }
-	
-
-/**var_dump($continents ['Africa']);
-    echo '<pre>';**/
-	
 ?>
