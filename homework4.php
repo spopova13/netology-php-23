@@ -21,38 +21,5 @@
             
     echo '<pre>'; print_r($data_file); echo '</pre>'; 
         
-    /*function xml_attribute($object, $attribute) { //функция для извлечения атрибута XML
-        if (isset($object[$attribute])) return (string) $object[$attribute];
-    }		
-	/*$longitude = round($xml_attribute($xml->location->location, 'longitude'),2);
-	$latitude = round($xml_attribute($xml->location->location, 'latitude'),2);
     
-    
-    $weather_icon = $xml -> weather [icon];
-    $weather_type = $xml -> weather [value];
-    
-    $sunrise = $xml -> city -> sun [rise];
-    $sunset = $xml -> city -> sun [set];
-    
-
-        
-            $sunrise = date('H:i',strtotime("+5 hours", strtotime($sunrise)));
-            $sunset = date('H:i',strtotime("+5 hours", strtotime($sunset)));
-
-    $title = "Город: ".$city."\n".
-    $weather_type." \nДавление: ".$pressure." мм рт. ст.\nВетер: ".$wind[trim ($windcode)].", ".$windspeed." м/с \nВлажность: ".$humidity."% \nВосход: ".$sunrise."\nЗакат: ".$sunset;//формируем данные для вывода в title картинки
-        echo ("<img src=C:\Users\Svetlana\Downloads\city.list.json/$weather_icon.png\" alt=\"$weather_type\" title=\"$title\" >"); //путь к кртинкам должен быть абсолютным
-        echo ("$temperarure<sup>o</sup>C<br>");//выводим все безобразие
-		
-		http://api.openweathermap.org/data/2.5/weather?id=1486209&mode=xml&appid=40f591faa09c64cf01a074c93101f859
-		*/
-
-
-
-
-
-
-
-
-
 ?>
