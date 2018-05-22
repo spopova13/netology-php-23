@@ -1,5 +1,5 @@
 <?php
-    $data = file_get_contents('https://github.com/spopova13/netology-php-23/blob/readme-edits/phonebook.json');
+    $data = file_get_contents(_DIR_ . '/phonebook.json');
     $list = json_decode($data, true);
     /*$list = [
 	    ['firstName' => 'Иван', 'lastName' => 'Иванов', 'address' => 'г. Москва, ул. Алиева, 2', 'phoneNumber' => '812 123-1234'],
