@@ -1,5 +1,5 @@
 <?php
-    $data = file_get_contents('http://university.netology.ru/u/spopova/me/phonebook.json');
+    $data = file_get_contents('./phonebook.json');
     $list = json_decode($data, true);
     /*$list = [
 	    ['firstName' => 'Иван', 'lastName' => 'Иванов', 'address' => 'г. Москва, ул. Алиева, 2', 'phoneNumber' => '812 123-1234'],
